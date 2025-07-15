@@ -36,15 +36,15 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Fork the project to your github account
-- [ ] Clone the project to your computer
-- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] This Assignment is NOT tested. You can use all the desired creativity!
-- [ ] All the tasks of the "Specific requirements" section MUST be solved
-- [ ] The project's file/folder structure should NOT be edited!
-- [ ] The ecommerce-page.html file should NOT be edited!
-- [ ] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "w3c web validator" VSCode extension or the "Online w3c Markup Validation Service")
-- [ ] The code MUST be formatted with Prettier.
+- [X] Fork the project to your github account
+- [X] Clone the project to your computer
+- [X] Open the project in VSCode with `code <cloned_repo_folder_name>`
+- [X] This Assignment is NOT tested. You can use all the desired creativity!
+- [X] All the tasks of the "Specific requirements" section MUST be solved
+- [X] The project's file/folder structure should NOT be edited!
+- [X] The ecommerce-page.html file should NOT be edited!
+- [X] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "w3c web validator" VSCode extension or the "Online w3c Markup Validation Service")
+- [X] The code MUST be formatted with Prettier.
 - [ ] Push the changes to the Github repo, when finished.
 - [ ] Submit a .txt file with the Github repo url.
 
@@ -56,71 +56,71 @@ You'll discover certain styles existing in the initial state of the CSS files. T
 
 Acceptance criteria:
 
-- [ ] The layout should closely resemble the mockup.
-- [ ] Avoid using margin and float CSS rules to define distance/space between elements or their alignment.
-- [ ] Positioning (utilizing the position CSS property) is prohibited.
-- [ ] Edit the following files:
-  - [ ] html: `/pages/authentication-form.html`
-  - [ ] css: `/css/authentication-form.css`
+- [X] The layout should closely resemble the mockup.
+- [X] Avoid using margin and float CSS rules to define distance/space between elements or their alignment.
+- [X] Positioning (utilizing the position CSS property) is prohibited.
+- [X] Edit the following files:
+  - [X] html: `/pages/authentication-form.html`
+  - [X] css: `/css/authentication-form.css`
 
 Create the form HTML elements to imitate the mockup:
 
-- [ ] Wrap each group of a label and input elements with a container representing a row.
-- [ ] Maintain a 6px distance between the label and the input.
-- [ ] Keep a 30px distance between each row.
-- [ ] Bolden label text when paired with a text or text-like input field.
-- [ ] Avoid bold formatting for labels paired with checkboxes and radios.
-- [ ] Utilize a paragraph element if the label element can't be used.
-- [ ] Ensure inputs span the full width available within the parent.
-- [ ] Set the height of inputs with text-like values to 30px.
-- [ ] Set the height of dropdown elements to 30px.
+- [X] Wrap each group of a label and input elements with a container representing a row.
+- [X] Maintain a 6px distance between the label and the input.
+- [X] Keep a 30px distance between each row.
+- [?] Bolden label text when paired with a text or text-like input field.
+- [?] Avoid bold formatting for labels paired with checkboxes and radios.
+- [X] Utilize a paragraph element if the label element can't be used.
+- [X] Ensure inputs span the full width available within the parent.
+- [X] Set the height of inputs with text-like values to 30px.
+- [X] Set the height of dropdown elements to 30px.
 
 For the "Sign In form":
 
-- [ ] The form should have a border of 1px width and solid style.
-- [ ] The login input element.
-  - [ ] Should require a value.
-  - [ ] Should include a placeholder.
-  - [ ] The value should be validated as an email by the default browser mechanism.
-- [ ] The password input element.
-  - [ ] Should require a value.
-  - [ ] Should include a placeholder.
-  - [ ] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
-  - [ ] Should hide symbols during typing.
-- [ ] The "Sign in" button should submit the form to initiate field validation using the default browser mechanism.
+- [X] The form should have a border of 1px width and solid style.
+- [X] The login input element.
+  - [X] Should require a value.
+  - [X] Should include a placeholder.
+  - [X] The value should be validated as an email by the default browser mechanism.
+- [X] The password input element.
+  - [X] Should require a value.
+  - [X] Should include a placeholder.
+  - [X] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
+  - [X] Should hide symbols during typing.
+- [X] The "Sign in" button should submit the form to initiate field validation using the default browser mechanism.
 
 For the "Sign Up Form"
 
-- [ ] The name input element
-  - [ ] Should require a value.
-  - [ ] Should include a placeholder.
-- [ ] The email input element
-  - [ ] Should require a value.
-  - [ ] The value should be validated as an email by the default browser mechanism.
-  - [ ] Should include a placeholder.
-- [ ] The password input element
-  - [ ] Should require a value.
-  - [ ] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
-  - [ ] Should hide symbols during typing.
-- [ ] The confirm password input element
-  - [ ] Should require a value.
-  - [ ] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
-  - [ ] Should hide symbols during typing.
-- [ ] The phone number input
-  - [ ] Should require a value
-  - [ ] The value should be validated to follow a template of telephone number strictly.
-- [ ] The avatar input
-  - [ ] Should be represented by a "Choose file" button allowing the user to select a file from their computer when clicked.
-- [ ] The state dropdown list
-  - [ ] Should be a dropdown list with a default option "Select your state" selected by default and three options with random state names (Iowa, etc.).
-  - [ ] The default option should be unavailable to be selected.
-- [ ] The city dropdown list
-  - [ ] Should be a dropdown list with a default option "Select your city" selected by default and three options with random city names (Dallas, etc.).
-  - [ ] The default option should be unavailable to be selected.
-- [ ] The Gender single-option group
-  - [ ] Clicking the label should activate the corresponding radio button.
-  - [ ] The "Other" option should be active (enabled) by default.
-- [ ] The "Sign in" button should submit the form to trigger field validation using the default browser mechanism.
+- [X] The name input element
+  - [X] Should require a value.
+  - [X] Should include a placeholder.
+- [X] The email input element
+  - [X] Should require a value.
+  - [X] The value should be validated as an email by the default browser mechanism.
+  - [X] Should include a placeholder.
+- [X] The password input element
+  - [X] Should require a value.
+  - [X] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
+  - [X] Should hide symbols during typing.
+- [X] The confirm password input element
+  - [X] Should require a value.
+  - [X] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
+  - [X] Should hide symbols during typing.
+- [X] The phone number input
+  - [X] Should require a value
+  - [X] The value should be validated to follow a template of telephone number strictly.
+- [X] The avatar input
+  - [X] Should be represented by a "Choose file" button allowing the user to select a file from their computer when clicked.
+- [X] The state dropdown list
+  - [X] Should be a dropdown list with a default option "Select your state" selected by default and three options with random state names (Iowa, etc.).
+  - [X] The default option should be unavailable to be selected.
+- [X] The city dropdown list
+  - [X] Should be a dropdown list with a default option "Select your city" selected by default and three options with random city names (Dallas, etc.).
+  - [X] The default option should be unavailable to be selected.
+- [X] The Gender single-option group
+  - [X] Clicking the label should activate the corresponding radio button.
+  - [X] The "Other" option should be active (enabled) by default.
+- [X] The "Sign in" button should submit the form to trigger field validation using the default browser mechanism.
 
 > E-commerce page
 
