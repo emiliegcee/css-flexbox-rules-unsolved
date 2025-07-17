@@ -1,4 +1,5 @@
 /* 👇👇👇 SCROLL DOWN TO THE "EDIT STYLES BENEATH" comment (line 180) 👇👇👇*/
+/* This says not to edit above line 180 */
 
 * {
   padding: 0;
@@ -38,7 +39,6 @@ section {
 
 .header-content {
   display: flex;
-  flex-direction: column;
   align-content: start;
   
 }
@@ -89,6 +89,10 @@ section {
 }
 
 .option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   min-width: 30px;
   text-transform: capitalize;
   cursor: pointer;
@@ -102,6 +106,8 @@ section {
 .categories {
   background-color: #2b2d36;
   padding-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .category {
@@ -174,6 +180,7 @@ i.fa-th-list {
   height: 220px;
 }
 /* EDIT BELOW HERE */
+/* Line 1 says not to edit above here */
 
 
 .product-name {
@@ -332,7 +339,6 @@ padding: 60px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 100px;
   padding: 20px;
 }
 
@@ -342,12 +348,12 @@ padding: 60px;
 }
 
 .lines-action .product-info {
-  padding: 40px 160px 20px;
+  padding: 30px;
   }
 
 .lines-action .product-action {
   display: flex;
-  justify-self: center;
+  justify-content: center;
   gap: 10px;
 }
 
