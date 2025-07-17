@@ -28,20 +28,16 @@ p {
   flex-direction: row;
   align-content: center;
   gap: 15px;
-  background-color: lightgray;
-  border-width: 2px;
-  border-color: black;
+  border: 1px black;
   }
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 30px;
   padding: 5px;
   justify-content: center;
   width: 100%;
-  border-color: black;
-  border-width: 3px;
   }
   
 
@@ -53,13 +49,12 @@ form {
 #sign-in {
   display: flex;
   flex-direction: column;
-  align-content: center;  
-  border-width: 2px;
+  align-content: center; 
   padding: 20px;
   gap: 10px;
   width: 100%;
-  height: 350px;
-  border: solid black;
+  height: 400px;
+  border: 1px solid black;
 }
 
 
@@ -69,40 +64,45 @@ form {
   gap: 8px;
   padding: 12px;
   align-content: center;
-  border-width: 2px;
   width: 120%;
-  border:3px solid black;
+  border: 1px solid black;
 }
 
+#sign-in-form, #sign-up-form {
+  display: flex;
+  gap: 30px;
+
+}
 a {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center; 
+  border: 1px black;
 }
 
 label {
   display: flex;
   flex-direction: row;
-  font-weight: bold;  
-  gap: 5px;
-  background: lightgrey;
-  border: solid black
+  font-weight: bold; 
 }
 
 input {
-  width: 100%;
-  height: 30px;
-  border-width: 2px;
-  border: black;
+  width: 75%;
+  height: 20px;
+  border: 1px solid black;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
+  width: fit-content;
+  height: fit-content;
+}
+
+.form-radio-control {
   display: flex;
   flex-direction: row;
-  align-content: center;
-  width: max-content;
-  height: max-content;
+  padding: 3px;
+  gap: 10px;
 }
 
 input[type="submit"] {
@@ -111,12 +111,10 @@ input[type="submit"] {
   width: fit-content;
   background: #335eea;
   color: white;
-  font-size: 20px;
-  border-radius: 2px;
-  appearance: none;
-  outline: none;
+  font-size: 18px;
   clear: left;
   cursor: pointer;
+  border: 1px solid black;
 }
 input[type="submit"]:hover {
   display: flex;
@@ -125,4 +123,14 @@ input[type="submit"]:hover {
 }
 .form select {
    height: 30px;
+}
+
+.form-group-horizontal-control {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.form-input-control {
+  gap: 20px;
 }
